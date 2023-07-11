@@ -27,7 +27,7 @@ The added fields are as follows:
 ## Endpoints
 All endpoint paths are the plural forms of entity names such as /posts or /users.
 
-### GET (find all), POST, PUT and DELETE endpoints
+### GET (find all), POST, PUT endpoints
 
 - /users
 - /posts
@@ -36,10 +36,10 @@ All endpoint paths are the plural forms of entity names such as /posts or /users
 
 > **WARNING:**
 > 
-> POST, PUT, and DELETE responses are in the format of the respective endpoint's entity, not the modified type.
+> POST, PUT, and also DELETE responses are in the format of the respective endpoint's entity, not the modified type.
 
-### GET by id
-GET by id endpoints require an additional path which specifies the id.
+### GET by id, DELETE endpoints 
+GET by id and DLETE endpoints require an additional path which specifies the id.
 
 ```
 /path/id={id]
