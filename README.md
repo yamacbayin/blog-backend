@@ -39,7 +39,7 @@ All endpoint paths are the plural forms of entity names such as /posts or /users
 > POST, PUT, and also DELETE responses are in the format of the respective endpoint's entity, not the modified type.
 
 ### GET by id, DELETE endpoints 
-GET by id and DLETE endpoints require an additional path which specifies the id.
+GET by id and DELETE endpoints require an additional path which specifies the id.
 
 ```
 /path/id={id]
